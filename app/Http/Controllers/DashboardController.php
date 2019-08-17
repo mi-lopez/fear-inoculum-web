@@ -13,7 +13,9 @@ class DashboardController extends Controller
      */
     public function index()
     {
-        $characters = \App\Character::get();        
-        return view('dashboard', compact('characters'));
+        $characters_total = \App\Character::where('alt', false)->get();
+        $characters_total = count($characters_total);
+        $characters = \App\Character::get();
+        return view('dashboard', compact('characters', 'characters_total'));
     }
 }

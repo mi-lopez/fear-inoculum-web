@@ -14,7 +14,7 @@
                   </li>
                 </ul>
 
-                <h1 class="text-center">{{ count($characters) }} pobretones</h1>
+                <h1 class="text-center">{{ $characters_total }} pobretones (+ {{ count($characters) - $characters_total }} alts)</h1>
 
 
                 <table class="table">
@@ -30,7 +30,12 @@
                     <tbody>
                         @foreach ($characters as $key => $character)
                             <tr class="text-center">
-                                <td>{{ $character->name }}</td>
+                                <td>@if ($character->alt)
+                                        {{ $character->name }} <span class="badge badge-secondary">Alt</span>
+                                    @else
+                                        {{ $character->name }}
+                                    @endif
+                                </td>
                                 <td><img width="35" src="{{ $character->spec->avatar }}"></td>
                                 <td><img width="35" src="{{ $character->race->avatar }}"></td>
                                 <td><img width="35" src="{{ $character->class->avatar }}"></td>
