@@ -14,7 +14,7 @@ class ReportController extends Controller
      */
     public function index()
     {
-        $specs = \App\Character::groupBy('spec_id')->select('spec_id', DB::raw('count(*) as total'))->get();
+        $specs = \App\Character::groupBy('spec_id')->select('spec_id', DB::raw('count(*) as total'))->orderBy('total', 'desc')->get();
         $races = \App\Character::groupBy('race_id')->select('race_id', DB::raw('count(*) as total'))->orderBy('total', 'desc')->get();
         $classes = \App\Character::groupBy('class_id')->select('class_id', DB::raw('count(*) as total'))->orderBy('total', 'desc')->get();
 
