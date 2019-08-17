@@ -4,186 +4,42 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
+
+                <ul class="nav nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active bg-dark text-white" href="#">Characters</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{ route('reports') }}">Reports</a>
+                  </li>
+                </ul>
+
+
                 <table class="table">
                     <thead>
                         <tr class="text-center">
                             <th>Nick</th>
+                            <th>Spec</th>
                             <th>Race</th>
                             <th>Class</th>
                             <th colspan="2">Professions</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="text-center">
-                            <td>Chryso</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_tauren_male.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_druid.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_herbalism.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_alchemy.jpg"></td>
-                        </tr>
-                        <tr class="text-center">
-                            <td>Layla</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_troll_female.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_hunter.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/inv_misc_skinningknife.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_leatherworking.jpg"></td>
-                        </tr>
-                        <tr class="text-center">
-                            <td>Huevito</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_troll_male.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_hunter.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/inv_misc_skinningknife.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_leatherworking.jpg"></td>
-                        </tr>
-                       <tr class="text-center">
-                            <td>Caliste</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_troll_male.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_hunter.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_mining.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_engineering.jpg"></td>
-                        </tr>
-                        <tr class="text-center">
-                            <td>Rille</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_undead_male.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_mage.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_tailoring.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/inv_enchant_disenchant.jpg"></td>
-                        </tr>
-                        <tr class="text-center">
-                            <td>Colt</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_undead_male.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_mage.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_tailoring.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/inv_enchant_disenchant.jpg"></td>
-                        </tr>
-                        <tr class="text-center">
-                            <td>Neggro</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_undead_male.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_mage.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_tailoring.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/inv_enchant_disenchant.jpg"></td>
-                        </tr>
-                        <tr class="text-center">
-                            <td>Valrak</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_undead_male.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_mage.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_tailoring.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/inv_enchant_disenchant.jpg"></td>
-                        </tr>
-                        <tr class="text-center">
-                            <td>Hailey</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_undead_male.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_mage.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_mining.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_engineering.jpg"></td>
-                        </tr>
-                        <tr class="text-center">
-                            <td>Karli</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_undead_female.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_priest.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_tailoring.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/inv_enchant_disenchant.jpg"></td>
-                        </tr>
-                        <tr class="text-center">
-                            <td>Halrhiot</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_undead_male.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_priest.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_tailoring.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/inv_enchant_disenchant.jpg"></td>
-                        </tr>
-                        <tr class="text-center">
-                            <td>Sokjad</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_undead_male.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_rogue.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_herbalism.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_alchemy.jpg"></td>
-                        </tr>
-                        <tr class="text-center">
-                            <td>Prototype</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_undead_male.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_rogue.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_mining.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_engineering.jpg"></td>
-                        </tr>
-                        <tr class="text-center">
-                            <td>Arkaether</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_undead_male.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_rogue.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_mining.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_herbalism.jpg"></td>
-                        </tr>
-                        <tr class="text-center">
-                            <td>Aenima</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_troll_male.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_shaman.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_herbalism.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_alchemy.jpg"></td>
-                        </tr>
-                        <tr class="text-center">
-                            <td>Akashax</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_orc_male.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_shaman.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_mining.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_engineering.jpg"></td>
-                        </tr>
-                        <tr class="text-center">
-                            <td>Cirilo</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_orc_male.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_shaman.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_herbalism.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_alchemy.jpg"></td>
-                        </tr>
-                        <tr class="text-center">
-                            <td>Jovovich</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_orc_male.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_shaman.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_mining.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_engineering.jpg"></td>
-                        </tr>
-                        <tr class="text-center">
-                            <td>Thomen</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_undead_male.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_warlock.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_tailoring.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/inv_enchant_disenchant.jpg"></td>
-                        </tr>
-                        <tr class="text-center">
-                            <td>Cotito</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_undead_male.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_warlock.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_mining.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_engineering.jpg"></td>
-                        </tr>
-                        <tr class="text-center">
-                            <td>Caoimghin</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_undead_male.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_warlock.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_tailoring.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/inv_enchant_disenchant.jpg"></td>
-                        </tr>
-                        <tr class="text-center">
-                            <td>Bolas de Toro</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_tauren_male.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_warrior.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_mining.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_blacksmithing.jpg"></td>
-                        </tr>
-                        <tr class="text-center">
-                            <td>Destroyer</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_orc_male.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_warrior.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_mining.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_blacksmithing.jpg"></td>
-                        </tr>
-                        <tr class="text-center">
-                            <td>Mapiz</td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/achievement_character_orc_male.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_warrior.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_mining.jpg"></td>
-                            <td><img src="https://wow.zamimg.com/images/wow/icons/large/trade_blacksmithing.jpg"></td>
-                        </tr>
+                        @foreach ($characters as $key => $character)
+                            <tr class="text-center">
+                                <td>{{ $character->name }}</td>
+                                <td><img width="56" src="{{ $character->spec->avatar }}"></td>
+                                <td><img src="{{ $character->race->avatar }}"></td>
+                                <td><img src="{{ $character->class->avatar }}"></td>
+                                @foreach ($character->professions as $key => $profession)
+                                    <td><img src="{{ $profession->avatar }}"></td>
+                                @endforeach
+                            </tr>
+                        @endforeach
                     </tbody>
                 </table>
+
             </div>
         </div>
     </div>

@@ -13,6 +13,7 @@ class DashboardController extends Controller
      */
     public function index()
     {
-        return view('dashboard');
+        $characters = \App\Character::get();        
+        return view('dashboard', compact('characters'));
     }
 }
