@@ -31,11 +31,11 @@
                         @foreach ($characters as $key => $character)
                             <tr class="text-center">
                                 <td>{{ $character->name }}</td>
-                                <td><img width="56" src="{{ $character->spec->avatar }}"></td>
-                                <td><img src="{{ $character->race->avatar }}"></td>
-                                <td><img src="{{ $character->class->avatar }}"></td>
+                                <td><img width="35" src="{{ $character->spec->avatar }}"></td>
+                                <td><img width="35" src="{{ $character->race->avatar }}"></td>
+                                <td><img width="35" src="{{ $character->class->avatar }}"></td>
                                 @foreach ($character->professions as $key => $profession)
-                                    <td><img src="{{ $profession->avatar }}"></td>
+                                    <td><img width="35" src="{{ $profession->avatar }}"></td>
                                 @endforeach
                             </tr>
                         @endforeach
