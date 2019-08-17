@@ -29,7 +29,7 @@ class Character extends Model
 
     public static function getProfessions()
     {
-        $results = DB::select(DB::raw('SELECT p.avatar, cp.profession_id, count(cp.*) as total FROM character_profession as cp, professions as p WHERE cp.profession_id = p.id GROUP BY p.avatar, cp.profession_id ORDER BY 3 DESC'));
+        $results = DB::select(DB::raw('SELECT p.avatar, cp.profession_id, count(*) as total FROM character_profession as cp, professions as p WHERE cp.profession_id = p.id GROUP BY p.avatar, cp.profession_id ORDER BY 3 DESC'));
 
         return $results;
     }
