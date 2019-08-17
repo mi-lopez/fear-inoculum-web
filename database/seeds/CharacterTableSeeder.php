@@ -165,7 +165,7 @@ class CharacterTableSeeder extends Seeder
         $character->professions()->sync([1, 4]);
 
         $character = \App\Character::create([
-            'name' => 'Jovovich',
+            'name' => 'Blazysm',
             'class_id' => 4,
             'race_id' => 1,
             'spec_id' => 3,
@@ -200,6 +200,15 @@ class CharacterTableSeeder extends Seeder
         ]);
 
         $character->professions()->sync([7, 8]);
+
+        $character = \App\Character::create([
+            'name' => 'Jovovich',
+            'class_id' => 7,
+            'race_id' => 3,
+            'spec_id' => 3,
+        ]);
+
+        $character->professions()->sync([7, 8]);        
 
         $character = \App\Character::create([
             'name' => 'Bolas De Toro',
