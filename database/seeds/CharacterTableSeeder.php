@@ -122,7 +122,7 @@ class CharacterTableSeeder extends Seeder
         $character = \App\Character::create([
             'name' => 'Prototype',
             'class_id' => 2,
-            'race_id' => 3,
+            'race_id' => 1,
             'spec_id' => 3,
         ]);
 
