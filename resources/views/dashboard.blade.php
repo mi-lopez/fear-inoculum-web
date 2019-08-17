@@ -14,6 +14,8 @@
                   </li>
                 </ul>
 
+                <h1 class="text-center">{{ count($characters) }} pobretones</h1>
+
 
                 <table class="table">
                     <thead>
