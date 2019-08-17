@@ -66,7 +66,7 @@ class CharacterTableSeeder extends Seeder
         $character->professions()->sync([7, 8]);
 
         $character = \App\Character::create([
-            'name' => 'Colt',
+            'name' => 'Claudiocolt',
             'class_id' => 3,
             'race_id' => 3,
             'spec_id' => 3,
