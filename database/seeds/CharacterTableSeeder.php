@@ -183,7 +183,7 @@ class CharacterTableSeeder extends Seeder
 
         $character = \App\Character::create([
             'name' => 'Blazysm',
-            'alt' => false,
+            'alt' => true,
             'class_id' => 4,
             'race_id' => 1,
             'spec_id' => 3,
@@ -224,7 +224,7 @@ class CharacterTableSeeder extends Seeder
 
         $character = \App\Character::create([
             'name' => 'Jovovich',
-            'alt' => true,
+            'alt' => false,
             'class_id' => 7,
             'race_id' => 3,
             'spec_id' => 3,
