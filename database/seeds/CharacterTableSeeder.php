@@ -247,7 +247,7 @@ class CharacterTableSeeder extends Seeder
             'alt' => false,
             'class_id' => 8,
             'race_id' => 1,
-            'spec_id' => 1,
+            'spec_id' => 3,
         ]);
 
         $character->professions()->sync([3, 9]);
