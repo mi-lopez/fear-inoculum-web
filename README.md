@@ -13,6 +13,12 @@ Sitio web para mostrar listado de personajes de la guild Fear Inoculum indicando
 
 Si quieres hacer un Fork vos dale.
 
+Para agregar más gente al listado, modifica el archivo
+``
+/database/seeds/CharacterTableSeeder.php
+``
+El deploy es automático, se hace un `php artisan migrate:refresh --seed` cada vez que se hace un push.
+
 ## Autores
 
 * **Miguel López** - *Trabajo inicial* - [mi-lopez](https://github.com/mi-lopez)
