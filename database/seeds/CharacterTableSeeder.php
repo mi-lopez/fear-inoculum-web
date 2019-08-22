@@ -192,6 +192,16 @@ class CharacterTableSeeder extends Seeder
         $character->professions()->sync([1, 4]);
 
         $character = \App\Character::create([
+            'name' => 'Donviruta',
+            'alt' => false,
+            'class_id' => 2,
+            'race_id' => 3,
+            'spec_id' => 3,
+        ]);
+
+        $character->professions()->sync([1, 3]);
+
+        $character = \App\Character::create([
             'name' => 'Aenima',
             'alt' => false,
             'class_id' => 4,
