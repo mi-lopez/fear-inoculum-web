@@ -154,6 +154,10 @@
             </ul>
             <h3 class="text-warning"> - Fish at Camp Mojache to Max Skill Level of 300</h3>
             <img width="300" class="img-thumbnail" src="{{ asset('img/camp_mojache.png') }}" alt="">
+            <h3> - Catch:</h3>
+            <ul>
+                <li><a href="https://classic.wowhead.com/item=13930" data-wowhead="item=13930"></a></li>
+            </ul>
             <h3 class="text-danger"> - Cook Filet of Redgill to Max Skill Level of 300</h3>
 
             <hr>
