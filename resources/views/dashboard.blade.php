@@ -12,6 +12,9 @@
                   <li class="nav-item">
                     <a class="nav-link" href="{{ route('reports') }}">Reports</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{ route('guides') }}">Guides</a>
+                  </li>
                 </ul>
 
                 <h1 class="text-center">{{ $characters_total }} pobretones (+ {{ count($characters) - $characters_total }} alts)</h1>

@@ -11,6 +11,9 @@
               <li class="nav-item">
                 <a class="nav-link active bg-dark text-white" href="{{ route('reports') }}">Reports</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ route('guides') }}">Guides</a>
+              </li>
             </ul>
         </div>
     </div>

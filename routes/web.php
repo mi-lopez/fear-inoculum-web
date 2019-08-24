@@ -13,6 +13,7 @@
 
 Route::get('/', 'DashboardController@index')->name('dashboard');
 Route::get('/reports', 'ReportController@index')->name('reports');
+Route::get('/guides', 'GuideController@index')->name('guides');
 
 Auth::routes();
 
