@@ -32,16 +32,6 @@ class CharacterTableSeeder extends Seeder
         $character->professions()->sync([3, 6]);
 
         $character = \App\Character::create([
-            'name' => 'Snako',
-            'alt' => false,
-            'class_id' => 1,
-            'race_id' => 7,
-            'spec_id' => 3,
-        ]);
-
-        $character->professions()->sync([1, 4]);
-
-        $character = \App\Character::create([
             'name' => 'Lisergishnu',
             'alt' => false,
             'class_id' => 1,
@@ -50,6 +40,16 @@ class CharacterTableSeeder extends Seeder
         ]);
 
         $character->professions()->sync([1, 2]);
+
+        $character = \App\Character::create([
+            'name' => 'Edel',
+            'alt' => false,
+            'class_id' => 1,
+            'race_id' => 8,
+            'spec_id' => 2,
+        ]);
+
+        $character->professions()->sync([1, 4]);
 
         $character = \App\Character::create([
             'name' => 'Layla',
@@ -271,6 +271,15 @@ class CharacterTableSeeder extends Seeder
 
         $character->professions()->sync([3, 6]);
 
+        $character = \App\Character::create([
+            'name' => 'Snako',
+            'alt' => false,
+            'class_id' => 4,
+            'race_id' => 7,
+            'spec_id' => 3,
+        ]);
+
+        $character->professions()->sync([1, 4]);
 
         $character = \App\Character::create([
             'name' => 'Thomen',
@@ -337,6 +346,16 @@ class CharacterTableSeeder extends Seeder
             'alt' => false,
             'class_id' => 8,
             'race_id' => 1,
+            'spec_id' => 1,
+        ]);
+
+        $character->professions()->sync([3, 9]);
+
+        $character = \App\Character::create([
+            'name' => 'Toqui',
+            'alt' => false,
+            'class_id' => 8,
+            'race_id' => 7,
             'spec_id' => 1,
         ]);
 
