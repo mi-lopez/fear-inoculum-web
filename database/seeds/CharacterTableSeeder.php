@@ -361,5 +361,15 @@ class CharacterTableSeeder extends Seeder
 
         $character->professions()->sync([3, 9]);
 
+        $character = \App\Character::create([
+            'name' => 'Boneheimer',
+            'alt' => false,
+            'class_id' => 8,
+            'race_id' => 1,
+            'spec_id' => 1,
+        ]);
+
+        $character->professions()->sync([3, 9]);
+
     }
 }
