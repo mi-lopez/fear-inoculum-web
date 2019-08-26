@@ -322,7 +322,7 @@ class CharacterTableSeeder extends Seeder
         $character->professions()->sync([3, 6]);
 
         $character = \App\Character::create([
-            'name' => 'Bolas De Toro',
+            'name' => 'Bolasdetoro',
             'alt' => false,
             'class_id' => 8,
             'race_id' => 7,
